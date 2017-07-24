@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*主体部分开始*/
+.container {
+    height: 460px;
+}
+/*左侧导航栏开始*/
+
+#nav_left {
+    float: left;
+    height: 420px;
+    width: 234px;
+    background-color: #2C505F;
+    position: relative;
+    padding:20px 0 20px 0;
+}
+.nav_left_list {
+    height: 42px;
+    padding-left: 29px;
+    position: relative;
+}
+.nav_left_list:hover {
+    background: #FF6700;
+}
+.nav_left_list a, .nav_left_list i{
+    color: #FFFFFF;
+    line-height: 44px;
+}
+.nav_left_list i {
+    position: absolute;
+    right: 20px;
+    font-size: 16px;
+}
+
+#banner a{
+    float: left;
+    background: url("../images/banner.png");
+    height: 460px;
+    width: 991px;
+}
+/*左边导航栏结束*/
+/*主体四广告广告开始*/
+#container_adv {
+    margin-top: 14px;
+    margin-bottom: 66px;
+}
+#container_adv_content {
+    width: 1238px;
+}
+#container_adv_content li{
+    float: left;
+    height: 170px;
+    margin-right: 14px;
+}
+#container_adv_text {
+    width: 234px;
+    background: #5F5750;
+}
+
+#container_adv_text p {
+    color: #fff;
+    margin-left: 37px;
+}
+#container_adv_text p:nth-of-type(1) {
+    margin-top:56px;
+    text-indent:1em;
+}
+.container_adv_img img{
+    width: 316px;
+}
+/*主体四广告结束*/
+/*主体商品部分开始*/
+#container_goods {
+    height: 798px;
+    background:#F5F5F5 ;
+}
+
+.container_goods_title {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 79px;
+
+}
+
+.container_goods_title a {
+    color: #333;
+}
+
+#container_goods span:nth-child(2) {
+    float: right;
+}
+
+#goods_items {
+    margin-top: 18px;
+}
+
+#goods_items_left_adv {
+    float: left;
+
+}
+.goods_items_right {
+    float: right;
+    height: 300px;
+    margin-bottom: 14px;
+}
+.goods_items_right li{
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.items_box {
+    width: 234px;
+    height: 300px;
+    text-align:center;
+    background: #ffffff;
+    position: relative;
+
+}
+.items_box img {
+    height: 150px;
+}
+
+.items_title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.items_title a{
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    color: #333;
+    font-size: 14px;
+}
+.goods_items_right .items_describe {
+    text-align: center;
+    color: #B0B0B0;
+    margin-top: 10px;
+}
+.items_price {
+    color: #FF6700;
+    position: absolute;
+    bottom: 36px;
+    left: 99px;
+
+}
+/*主体商品部分结束*/
+/*主体部分结束*/

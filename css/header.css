@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*头部最上结束*/
+header {
+    background:#333;
+    height: 40px;
+    width: 100%;
+}
+#top_bar_left {
+    float: left;
+}
+#top_bar_left li {
+    float: left;
+    line-height: 40px;
+}
+#top_bar_left span {
+    padding-left: 8px;
+}
+#top_bar_left a:hover{
+    color:#FFFFFF ;
+}
+/*头部最上结束*/
+
+/*头部导航开始*/
+#top_nav {
+    height: 100px;
+    position:relative;
+}
+#logo,.hot_sale,#nav_list {
+    float: left;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+#logo a {
+    float: left;
+    background:url("../images/logo.png") no-repeat ;
+    height: 55px;
+    width: 55px;
+}
+.hot_sale a{
+    float: left;
+    background:url("../images/haidaoquannew.gif") no-repeat ;
+    height: 66px;
+    width: 163px;
+    margin-left: 85px;
+}
+#nav_list {
+    margin-left: 247px;
+}
+#nav_list li {
+    float: left;
+    padding-right: 26px;
+}
+#nav_list  a {
+    color: black;
+    font-size: 16px;
+}
+#nav_list a:hover {
+    color: #FF6700;
+}
+/*头部导航结束*/
+
+
